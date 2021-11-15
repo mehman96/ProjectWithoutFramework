@@ -5,11 +5,11 @@ def save():
  lastname_info=lastname.get()
  print(firstname_info,lastname_info)
 
-file=open("user.txt" )
-file.write (firstname_info)
-file.write(lastname_info) 
-file.close()
-print("User", firstname_info ,"has been register sucessfully")
+# file=open("user.txt" )
+# file.write (firstname_info)
+# file.write(lastname_info) 
+# file.close()
+# print("User", firstname_info ,"has been register sucessfully")
 
 
 screen =Tk()
